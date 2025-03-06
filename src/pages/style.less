@@ -1,0 +1,168 @@
+
+
+@Green-color: rgb(82, 196, 26);
+@Green-color-disabled: #d9f7be;
+@Green-color-hover: #73d13d;
+@Green-color-active: #389e0d;
+@Green-color-outline: rgba(82, 196, 26, 0.2);
+@Green-color-deprecated-bg: #f6ffed;
+@Green-color-deprecated-border: #b7eb8f;
+@Green-1: #f6ffed;
+@Green-2: #d9f7be;
+@Green-3: #b7eb8f;
+@Green-4: #95de64;
+@Green-5: #73d13d;
+@Green-6: #52c41a;
+@Green-7: #389e0d;
+@Green-8: #237804;
+@Green-9: #135200;
+@Green-10: #092b00;
+@Green-color-deprecated-l-35: rgb(186, 242, 158);
+@Green-color-deprecated-l-20: rgb(138, 233, 91);
+@Green-color-deprecated-t-20: rgb(117, 208, 72);
+@Green-color-deprecated-t-50: rgb(169, 226, 141);
+@Green-color-deprecated-f-12: rgba(82, 196, 26, 0.12);
+@Green-color-active-deprecated-f-30: rgba(246, 255, 237, 0.3);
+@Green-color-active-deprecated-d-02: rgb(241, 255, 227);
+
+@Cyan-color: rgb(19, 194, 194);
+@Cyan-color-disabled: #b5f5ec;
+@Cyan-color-hover: #36cfc9;
+@Cyan-color-active: #08979c;
+@Cyan-color-outline: rgba(19, 194, 194, 0.2);
+@Cyan-color-deprecated-bg: #e6fffb;
+@Cyan-color-deprecated-border: #87e8de;
+@Cyan-1: #e6fffb;
+@Cyan-2: #b5f5ec;
+@Cyan-3: #87e8de;
+@Cyan-4: #5cdbd3;
+@Cyan-5: #36cfc9;
+@Cyan-6: #13c2c2;
+@Cyan-7: #08979c;
+@Cyan-8: #006d75;
+@Cyan-9: #00474f;
+@Cyan-10: #002329;
+@Cyan-color-deprecated-l-35: rgb(147, 244, 244);
+@Cyan-color-deprecated-l-20: rgb(77, 238, 238);
+@Cyan-color-deprecated-t-20: rgb(66, 206, 206);
+@Cyan-color-deprecated-t-50: rgb(137, 225, 225);
+@Cyan-color-deprecated-f-12: rgba(19, 194, 194, 0.12);
+@Cyan-color-active-deprecated-f-30: rgba(230, 255, 251, 0.3);
+@Cyan-color-active-deprecated-d-02: rgb(220, 255, 249);
+
+@Volcano-color: rgb(250, 84, 28);
+@Volcano-color-disabled: #ffd8bf;
+@Volcano-color-hover: #ff7a45;
+@Volcano-color-active: #d4380d;
+@Volcano-color-outline: rgba(250, 84, 28, 0.2);
+@Volcano-color-deprecated-bg: #fff2e8;
+@Volcano-color-deprecated-border: #ffbb96;
+@Volcano-1: #fff2e8;
+@Volcano-2: #ffd8bf;
+@Volcano-3: #ffbb96;
+@Volcano-4: #ff9c6e;
+@Volcano-5: #ff7a45;
+@Volcano-6: #fa541c;
+@Volcano-7: #d4380d;
+@Volcano-8: #ad2102;
+@Volcano-9: #871400;
+@Volcano-10: #610b00;
+@Volcano-color-deprecated-l-35: rgb(254, 216, 203);
+@Volcano-color-deprecated-l-20: rgb(252, 159, 128);
+@Volcano-color-deprecated-t-20: rgb(251, 118, 73);
+@Volcano-color-deprecated-t-50: rgb(253, 170, 142);
+@Volcano-color-deprecated-f-12: rgba(250, 84, 28, 0.12);
+@Volcano-color-active-deprecated-f-30: rgba(255, 242, 232, 0.3);
+@Volcano-color-active-deprecated-d-02: rgb(255, 236, 222);
+
+.green {
+  color: #fff;
+  border-color: @Green-color;
+  background: @Green-color;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  &:hover, &:focus {
+    color: #fff;
+    border-color: @Green-color-hover;
+    background: @Green-color-hover;
+  }
+ 
+  &:active, &.active {
+    color: #fff;
+    border-color: @Green-color-active;
+    background: @Green-color-active;
+  }
+}
+.cyan {
+  color: #fff;
+  border-color: @Cyan-color;
+  background: @Cyan-color;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  &:hover, &:focus {
+    color: #fff;
+    border-color: @Cyan-color-hover;
+    background: @Cyan-color-hover;
+  }
+ 
+  &:active, &.active {
+    color: #fff;
+    border-color: @Cyan-color-active;
+    background: @Cyan-color-active;
+  }
+}
+.volcano {
+  color: #fff;
+  border-color: @Volcano-color;
+  background: @Volcano-color;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  &:hover, &:focus {
+    color: #fff;
+    border-color: @Volcano-color-hover;
+    background: @Volcano-color-hover;
+  }
+ 
+  &:active, &.active {
+    color: #fff;
+    border-color: @Volcano-color-active;
+    background: @Volcano-color-active;
+  }
+}
+
+.abc{
+    display:inline-block;
+    transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+}
+
+.mp0{
+  margin-left: -24px;
+  margin-right: -24px;
+}
+
+
+.image {
+  :global {
+    .ant-pro-card-body {
+      padding: 0;
+    }
+    .ant-pro-checkcard-body {
+      padding: 0 24px 24px 24px !important;
+    }
+  }
+}
+.img {
+  img {
+    position: absolute;
+    display:none;
+  }
+  &:hover {
+    img {
+      display:block;
+    }
+  }
+}
